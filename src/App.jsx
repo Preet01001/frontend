@@ -6,7 +6,7 @@ function App() {
 
   function get(e){
     e.preventDefault();
-    fetch("http://localhost:4000/")
+    fetch("https://backend1-j3av.onrender.com/")
   .then((res)=>{
     res.json().then((dat)=>{
    setdata(dat)
